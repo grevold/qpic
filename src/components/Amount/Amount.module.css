@@ -1,0 +1,8 @@
+.root {
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background: rgba(255, 165, 66, 1);
+  color: white;
+  text-align: center;
+}
