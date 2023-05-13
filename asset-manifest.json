@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/qpic/static/css/main.c7ec3132.css",
+    "main.js": "/qpic/static/js/main.687b0b39.js",
+    "static/js/787.0217c058.chunk.js": "/qpic/static/js/787.0217c058.chunk.js",
+    "index.html": "/qpic/index.html",
+    "main.c7ec3132.css.map": "/qpic/static/css/main.c7ec3132.css.map",
+    "main.687b0b39.js.map": "/qpic/static/js/main.687b0b39.js.map",
+    "787.0217c058.chunk.js.map": "/qpic/static/js/787.0217c058.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7ec3132.css",
+    "static/js/main.687b0b39.js"
+  ]
+}
