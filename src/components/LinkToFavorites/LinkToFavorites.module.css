@@ -2,12 +2,8 @@
   position: relative;
   display: flex;
 }
-
 .cartIcon {
-  width: 23px;
-  height: 23px;
 }
-
 .amount {
   position: absolute;
   left: 100%;
