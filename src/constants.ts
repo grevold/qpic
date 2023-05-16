@@ -1,12 +1,13 @@
-import { Product } from "./types";
+import { Product, ProductCategory } from "./types";
 
-export const headphones: Product[] = [
+export const products: Product[] = [
   {
     id: 1,
     img: "1.png",
     title: "Apple BYZ S852I",
     price: 2927,
     rate: 4.7,
+    category: ProductCategory.Headphones,
   },
   {
     id: 2,
@@ -14,6 +15,7 @@ export const headphones: Product[] = [
     title: "Apple EarPods",
     price: 2327,
     rate: 4.5,
+    category: ProductCategory.Headphones,
   },
   {
     id: 3,
@@ -21,50 +23,54 @@ export const headphones: Product[] = [
     title: "Apple EarPods",
     price: 2327,
     rate: 4.5,
+    category: ProductCategory.Headphones,
   },
   {
-    id: 1,
+    id: 4,
     img: "4.png",
     title: "Apple BYZ S852I",
     price: 2927,
     rate: 4.7,
+    category: ProductCategory.Headphones,
   },
   {
-    id: 2,
+    id: 5,
     img: "5.png",
     title: "Apple EarPods",
     price: 2327,
     rate: 4.5,
+    category: ProductCategory.Headphones,
   },
   {
-    id: 3,
+    id: 6,
     img: "6.png",
     title: "Apple EarPods",
     price: 2327,
     rate: 4.5,
+    category: ProductCategory.Headphones,
   },
-];
-
-export const wirelessHeadphones: Product[] = [
   {
-    id: 1,
+    id: 7,
     img: "4.png",
     title: "Apple AirPods",
     price: 9527,
     rate: 4.7,
+    category: ProductCategory.WirelessHeadphones,
   },
   {
-    id: 2,
+    id: 8,
     img: "5.png",
     title: "GERLAX GH-04",
     price: 6527,
     rate: 4.7,
+    category: ProductCategory.WirelessHeadphones,
   },
   {
-    id: 3,
+    id: 9,
     img: "6.png",
     title: "BOROFONE BO4",
     price: 7527,
     rate: 4.7,
+    category: ProductCategory.WirelessHeadphones,
   },
 ];

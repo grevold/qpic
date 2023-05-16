@@ -20,6 +20,12 @@
   display: block;
   margin-top: 15px;
 }
+
+button:disabled,
+button[disabled] {
+  cursor: not-allowed;
+}
+
 .final_price {
   display: flex;
   justify-content: space-between;

@@ -1,4 +1,5 @@
 import cn from "classnames";
+
 import s from "./Amount.module.css";
 
 interface Props {
