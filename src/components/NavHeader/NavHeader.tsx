@@ -13,7 +13,7 @@ export const NavHeader = () => {
         </li>
         <li className={s.links}>
           <LinkToFavorites amount={2} />
-          <LinkToCart amount={2} className={s.linkToCart} />
+          <LinkToCart className={s.linkToCart} />
         </li>
       </ul>
     </header>

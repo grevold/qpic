@@ -1,3 +1,8 @@
+export enum ProductCategory {
+  Headphones = "Headphones",
+  WirelessHeadphones = "WirelessHeadphones",
+}
+
 export enum RoutePath {
   MainPage = "*",
   CartPage = "/cart",
@@ -16,4 +21,12 @@ export interface Product {
   title: string;
   rate: number;
   prevPrice?: number;
+  category: ProductCategory;
+}
+
+export interface ProductsStore {
+  products: {
+    amount: number;
+    productData: Product;
+  }[];
 }

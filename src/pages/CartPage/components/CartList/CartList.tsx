@@ -1,5 +1,5 @@
 import { CartListProduct } from "../../../../components/CartListProduct/CartListProduct";
-import { headphones } from "../../../../constants";
+import { useAppSelector } from "../../../../store/store";
 import cn from "classnames";
 
 import s from "./CartList.module.css";
@@ -9,12 +9,16 @@ interface Props {
 }
 
 export const CartList: React.FC<Props> = ({ className }) => {
+  const productsStore = useAppSelector((state) =>
+    state.productsStore.products.filter(({ amount }) => amount)
+  );
+
   return (
     <div className={cn(s.root, className)}>
       <ul>
-        {headphones.map((productData) => (
+        {productsStore.map(({ productData, amount }) => (
           <li key={productData.id} className={s.item}>
-            <CartListProduct {...productData} />
+            <CartListProduct amount={amount} productData={productData} />
           </li>
         ))}
       </ul>
