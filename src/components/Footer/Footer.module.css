@@ -21,7 +21,6 @@
 .link {
   text-decoration: none;
   color: black;
-  cursor: pointer;
   font-weight: 400;
   font-size: 17px;
   margin-bottom: 34px;
@@ -52,7 +51,6 @@
 .language_choice {
   font-weight: 500;
   font-size: 15px;
-  cursor: pointer;
 }
 
 .language_choice_active {
