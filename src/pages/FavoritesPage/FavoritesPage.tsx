@@ -27,18 +27,18 @@ export const FavoritesPage = () => {
   return (
     <div className={s.root_music}>
       <div className={s.playground}>
-        <button className={s.sound} onClick={playKick}>
+        <div className={s.sound} onClick={playKick}>
           Kick
-        </button>
-        <button className={s.sound} onClick={playHat}>
+        </div>
+        <div className={s.sound} onClick={playHat}>
           Hat
-        </button>
-        <button className={s.sound} onClick={playClap}>
+        </div>
+        <div className={s.sound} onClick={playClap}>
           Clap
-        </button>
-        <button className={s.sound} onClick={playBass}>
+        </div>
+        <div className={s.sound} onClick={playBass}>
           Bass
-        </button>
+        </div>
       </div>
     </div>
   );
